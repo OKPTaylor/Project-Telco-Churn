@@ -17,12 +17,14 @@ Project Plan:
   * Acquire: Download the telco customer data from 
   * Prepare: Remove nulls, change objects to int or floats, and encode all relevant categorical features.
   * Explore: Use the above initial hypothesis to tease out statistical relationships to select the most 
-  appropriate features to develop the predictive model. Focusing on xxxx 
+  appropriate features to develop the predictive model, focusing on tenure, add-on services, senior citizen status, and internet service
+  type.
   * Modeling: Will run selected features against all models while altering hyperparameters to pull back the best
   results (most accurate and/or the model with the best recall metrics).
   
  Reproducing: 
- Clone the repo and run as a Jupiter Notebook. Run each cell indevidually in order or all at once. 
+ Clone the repo and run as a Jupiter Notebook. Run each cell indevidually in order or all at once. Make sure all of the
+ appropriate modules are in the correct directory.
   
 NOTE: you will need your own creditals stored in an env file or SQL database will deny you access. alternatively 
 download the telco csv file located in this repo and the notebook will run it via the acquire function.
