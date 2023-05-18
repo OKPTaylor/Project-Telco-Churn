@@ -2,7 +2,7 @@ Project Churn
 
 Discription:
 Project Churn explores the reasons behind customer churn and predicts who will churn by using statistical 
-analysis and mechanine learning models.
+analysis and mechine learning models.
 
 Project Goal:
 The goal is to, as best as possible, accurately predict the likelihood that a customer will churn based 
